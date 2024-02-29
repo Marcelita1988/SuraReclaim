@@ -6,7 +6,12 @@ module.exports = {
     'darkBlueSura': '#003058',
     'middleBlueSura': '#0033a0',
     'lightBlueSura': '#00a7c1',
+    'whiteText': '#FFFFFF',
   },
-  plugins: [],
-}
+    
+    fontFamily: {
+    'nuestraLetra': ['Playfair Display', 'serif'],
+  },
+  plugins: []
+  }
 }
