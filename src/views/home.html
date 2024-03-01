@@ -62,13 +62,13 @@
                         <div class="col-5">
                             <div class="input-group mb-3">
                                 <span class="input-group-text" id="basic-addon1">Tipo de Documento</span>
-                                <input type="text" class="form-control" placeholder="CC o NIT" aria-label="Username" aria-describedby="basic-addon1">
+                                <input type="text" class="form-control" placeholder="CC o NIT" aria-label="Username" aria-describedby="basic-addon1" id="tipoDocumento">
                             </div>
                         </div>
                         <div class="col-5">
                             <div class="input-group mb-3">
-                                <span class="input-group-text" id="basic-addon1"># de identificacion</span>
-                                <input type="text" class="form-control" placeholder="890911" aria-label="Username" aria-describedby="basic-addon1">
+                                <span class="input-group-text" id="basic-addon1"> Numero de identificacion</span>
+                                <input type="text" class="form-control" placeholder="890911" aria-label="Username" aria-describedby="basic-addon1" id="numeroIdentificacion">
                               </div>
                         </div>
                     </div>
@@ -89,13 +89,13 @@
                         <div class="col-5">
                             <div class="input-group mb-3">
                                 <span class="input-group-text" id="basic-addon1">Prefijo</span>
-                                <input type="text" class="form-control" placeholder="Ingresar prefijo" aria-label="Username" aria-describedby="basic-addon1">
+                                <input type="text" class="form-control" placeholder="Ingresar prefijo" aria-label="Username" aria-describedby="basic-addon1" id="prefijo">
                             </div>
                         </div>
                         <div class="col-5">
                             <div class="input-group mb-3">
                                 <span class="input-group-text" id="basic-addon1">#Factura</span>
-                                <input type="text" class="form-control" placeholder="123..." aria-label="Username" aria-describedby="basic-addon1">
+                                <input type="text" class="form-control" placeholder="123..." aria-label="Username" aria-describedby="basic-addon1" id="factura">
                               </div>
                         </div>
                     </div>
@@ -112,12 +112,12 @@
                         <div class="col-10">
                             <div class="input-group mb-3">
                                 <span class="input-group-text" id="basic-addon1">#Causal</span>
-                                <input type="text" class="form-control" placeholder="821-1" aria-label="Username" aria-describedby="basic-addon1">
+                                <input type="text" class="form-control" placeholder="821-1" aria-label="Username" aria-describedby="basic-addon1" id="causal">
                               </div>
                         </div>
                     </div>
 
-                    <button class="btn btn-primary mx-auto d-block w-50">Consultar</button>
+                    <button class="btn btn-primary mx-auto d-block w-50" id="botonIngreso">Consultar</button>
 
                 </form>
             </div>
@@ -129,9 +129,10 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <script src="../controllers/controladorhome.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
    
 
-    <script src="../services/servicioSpotify.js"></script>
+    <script src="../views/home.html"></script>
 </body>
 </html>
